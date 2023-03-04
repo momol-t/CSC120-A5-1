@@ -3,6 +3,7 @@
 ## Outline
 In this assignment, we'll explore Association by building a virtual Train!
 
+![A cartoon train with an engine and three passenger cars](https://raw.githubusercontent.com/jcrouser/CSC120/0e8c76db29bdc5fc7558551442b942440b0ae452/img/train.png?token=GHSAT0AAAAAAB6EBA3IXCQADI2VU7KMMOOQZABLY7A)
 
 As before, all the files necessary for this assignment are contained within this repository. When you submit, please remember to include:
 
@@ -41,7 +42,7 @@ Let's pause a moment to think about the different kinds of relationships we'll w
  ## Step 1: The `Engine` class
  We recommend you start by implementing the `Engine` class. Your `Engine` class will need:
  
-  - a private `FuelType` attribute to indicate what type of fuel it uses, and `double`s to store the current and maximum fuel levels (along with an approproate accessors for each)
+  - a private `FuelType` attribute to indicate what type of fuel it uses, and `double`s to store the current and maximum fuel levels (along with an appropriate accessors for each)
   - a constructor, which takes in initial values for the attributes named above and sets them appropriately
   - a method `public void refuel()` which will reset the `Engine`'s current fuel level to the maximum
   - a method `public void go()` which will decrease the current fuel level and print some useful information (e.g. remaining fuel level) provided the fuel level is above 0 (otherwise it should throw a `RuntimeException` containing an informative message)
