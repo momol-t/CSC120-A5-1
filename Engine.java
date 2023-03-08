@@ -28,8 +28,8 @@ public class Engine {
     }
 
     public void go(){
-        if (this.currentFuel > 0){
-            this.currentFuel = this.currentFuel - 20;
+        if (this.currentFuel > 14){
+            this.currentFuel = this.currentFuel - 15;
         } else {
             throw new RuntimeException("There is not enough fuel in engine. The fuel level is: " + this.currentFuel);
         }
